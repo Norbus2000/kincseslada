@@ -1,13 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package adatok;
 
-/**
- *
- * @author odorn
- */
-public class Ladak {
+public enum Ladak {
+    ARANY("én rejtem a kincset"),
+    EZÜST("nem én rejtem a kincset"),
+    BRONZ("az arany hazudik"),
+    ;
     
+    
+
+    private final String szovegek;
+
+    Ladak (String szovegek) {
+        this.szovegek = szovegek;
+    }
+
+    @Override
+    public String toString() {
+        return szovegek;
+    }
 }
+
