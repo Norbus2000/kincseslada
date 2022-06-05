@@ -3,8 +3,8 @@ package tesztek;
 import nezet.gui;
 
 public class Tesztek {
-
-    public static void main(String[] args) {
+        
+        public void visszaJelzesTeszt(){
         System.out.println();
         nezet.gui ablak = new gui();
         
@@ -18,8 +18,8 @@ public class Tesztek {
         System.out.println("Mukodik");
         
 
-        
+        }
     }
 
-}
+
 
