@@ -36,13 +36,15 @@
                   </Group>
                   <Component id="gombokPanel" alignment="0" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="aranyszovegLbl" pref="207" max="32767" attributes="0"/>
-                          <Component id="aranyLbl" max="32767" attributes="0"/>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="aranyLbl" min="-2" pref="207" max="-2" attributes="0"/>
+                          <Component id="aranyszovegLbl" min="-2" pref="207" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                               <Component id="visszaJelzLbl" min="-2" pref="206" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
@@ -53,9 +55,10 @@
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="bronzLbl" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
                                   <Component id="bronzSzovegLbl" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                  <Component id="bronzLbl" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
                               </Group>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -69,7 +72,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-              <Component id="visszaJelzLbl" pref="82" max="32767" attributes="0"/>
+              <Component id="visszaJelzLbl" pref="92" max="32767" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="aranyLbl" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -116,6 +119,11 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="kerdesLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="378" max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -124,8 +132,9 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="visszaJelzesLb" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="szovegLbl" min="-2" pref="58" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="szovegLbl" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="kerdesLbl" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -137,6 +146,11 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="visszaJelzesLb">
+        </Component>
+        <Component class="javax.swing.JLabel" name="kerdesLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kinek van igaza ?"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
