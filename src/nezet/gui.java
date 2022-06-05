@@ -22,6 +22,13 @@ public class gui extends javax.swing.JFrame {
         initComponents();
         setResizable(false);
 
+        aranyLada = new Lada("Arany", Ladak.ARANY, false);
+        ezustLada = new Lada("Ezust", Ladak.ARANY, true);
+        bronzLada = new Lada("Bronz", Ladak.BRONZ, false);
+
+        ladak.add(aranyLada);
+        ladak.add(ezustLada);
+        ladak.add(bronzLada);
 
     }
 
@@ -212,15 +219,15 @@ public class gui extends javax.swing.JFrame {
     }//GEN-LAST:event_none
 
     private void aranyBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aranyBtnActionPerformed
-        
+        kepetAllit(visszajelzes(0), aranyBtn);
     }//GEN-LAST:event_aranyBtnActionPerformed
 
     private void ezustBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ezustBtnActionPerformed
-        
+        kepetAllit(visszajelzes(1), ezustBtn);
     }//GEN-LAST:event_ezustBtnActionPerformed
 
     private void bronzBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bronzBtnActionPerformed
-       
+       kepetAllit(visszajelzes(2), bronzBtn);
     }//GEN-LAST:event_bronzBtnActionPerformed
 
     private void kisablak(String uzenet) {
