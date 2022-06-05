@@ -1,4 +1,5 @@
 Kincsesláda feladat levezetése
+
 ha az arany ládában feltételezünk
 arany h
 ezüst h
