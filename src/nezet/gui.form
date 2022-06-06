@@ -149,7 +149,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="kerdesLbl">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Kinek van igaza ?"/>
+            <Property name="text" type="java.lang.String" value="Ki rejti a kincset ?"/>
           </Properties>
         </Component>
       </SubComponents>

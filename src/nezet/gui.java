@@ -60,7 +60,7 @@ public class gui extends javax.swing.JFrame {
 
         szovegLbl.setText("3 láda közül az egyik rejti a kincset. Mindegyiken van egy felirat (ami nem változtatható, mert belevésték a ládába), de csak az egyik láda állítása igaz! ");
 
-        kerdesLbl.setText("Kinek van igaza ?");
+        kerdesLbl.setText("Ki rejti a kincset ?");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
